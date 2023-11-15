@@ -1,0 +1,143 @@
+.wrapper {
+  background-color: #4763E4;
+  display: grid;
+  place-content: center;
+  min-width: 100%;
+  min-height: 100vh;
+  font-family: Inter;
+}
+.wrapper .content {
+  border-radius: 12px;
+  padding: 20px;
+  background: #FFFFFF;
+  min-width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper .content img {
+  margin-bottom: 8px;
+}
+.wrapper .content p {
+  color: var(--black, #000);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.wrapper .content form {
+  width: 100%;
+}
+.wrapper .content form .email {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+.wrapper .content form .email label {
+  color: var(--black, #000);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.wrapper .content form .email input {
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #5C73DB;
+  color: var(--gray-400, #9FA6B2);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wrapper .content form .email input:focus {
+  outline: #5C73DB;
+}
+.wrapper .content form .password {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.wrapper .content form .password label {
+  color: var(--black, #000);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+.wrapper .content form .password input {
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #5C73DB;
+  color: var(--gray-400, #9FA6B2);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wrapper .content form .password input:focus {
+  outline: #5C73DB;
+}
+.wrapper .content form .password i {
+  position: absolute;
+  right: 16px;
+  top: 45px;
+  color: var(--gray-400, #9FA6B2);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wrapper .content form .text1 {
+  color: var(--black, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 16px 0;
+}
+.wrapper .content form .text1 div {
+  color: #5C73DB;
+  display: inline;
+}
+.wrapper .content form button {
+  display: flex;
+  width: 100%;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 12px;
+  background: #4763E4;
+  border: transparent;
+  color: var(--white, #FFF);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.wrapper .content form .lastText {
+  color: var(--black, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin: 8px 0 0 0;
+}
+.wrapper .content form .lastText .link {
+  color: #5C73DB;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}/*# sourceMappingURL=style.css.map */

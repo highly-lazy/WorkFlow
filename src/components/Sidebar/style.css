@@ -1,0 +1,61 @@
+aside {
+  width: 256px;
+  max-height: 100vh;
+  height: 923px;
+  background-color: #081467;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+aside .a_main {
+  height: 85%;
+}
+aside .a_main .aside_header {
+  padding: 20px;
+}
+aside .a_main .mask {
+  background: linear-gradient(180deg, #1933dc 0%, rgba(8, 20, 95, 0.35) 104.8%, rgba(21, 42, 176, 0) 169.64%);
+}
+aside .a_main .mask .content {
+  padding: 32px 20px;
+}
+aside .a_main .mask .content .bg-gray-50 {
+  background: transparent !important;
+  color: #ffffff !important;
+}
+aside .a_main .mask .content .bg-gray-50 a:hover {
+  background: #4256d0 !important;
+}
+aside .a_main .mask .content .bg-gray-50 a:focus {
+  background: #4256d0 !important;
+}
+aside .a_main .mask .content .bg-gray-50 button:hover {
+  background: #4256d0 !important;
+}
+aside .a_main .mask .content .text-gray-900 {
+  color: #ffffff;
+}
+aside .aside_footer {
+  display: flex;
+  gap: 8px;
+  margin: 20px;
+  height: 40px;
+}
+aside .aside_footer .text h5 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+aside .aside_footer .text p {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.active {
+  background-color: #4256d0 !important;
+}/*# sourceMappingURL=style.css.map */

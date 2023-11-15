@@ -1,4 +1,5 @@
 .wrapper {
+    background-color: #4763E4;
     display: grid;
     place-content: center;
     min-width: 100%;
@@ -6,6 +7,8 @@
     font-family: Inter;
 
     & .content {
+        border-radius: 12px;
+        padding: 20px;
         background: #FFFFFF;
         min-width: 520px;
         display: flex;
